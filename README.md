@@ -1,4 +1,4 @@
-# Proyecto individual N°1 - Machine Learning Operations (MLOps)
+# <h1 align=center> **Proyecto individual N°1 - Machine Learning Operations (MLOps)** </h1>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/67664604/217914153-1eb00e25-ac08-4dfa-aaf8-53c09038f082.png"  height=300>
