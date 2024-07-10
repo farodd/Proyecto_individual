@@ -45,6 +45,51 @@ def cargar_df_modelo():
     df_modelo_final = pd.read_parquet('Datasets/df_modelo_final.parquet')
     return df_modelo_final
 
+# HTML de la página de presentación
+pagina_presentacion = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Página Web en FastAPI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a mi entorno FastAPI</h1>
+        <p>Podrán ver la API al agregar "/docs" al final de la URL.</p>
+        <div>
+        <p> <2023></p>
+    </div>
+</body>
+</html>
+"""
+
+# MOSTRAMOS LA PRESENTACIÓN
+@app.get("/", response_class=HTMLResponse)
+async def mostrar_pagina_presentacion():
+    return pagina_presentacion
+
 #FUNCION 1
 def cantidad_filmaciones_mes(mes):
     df_f1 = cargar_df_f1()
@@ -238,6 +283,7 @@ def recomendacion(titulo):
     return recommended_movies
     
 
+#LAS SIGUIENTES FUNCIONES SON CON EL FIN DE PODER SABER QUE ERRORES SON LOS QUE SE ESTÁN GENERÁNDO
 #RUTA FUNCION 1
 
 @app.get("/peliculas_por_mes/{mes}", response_model=dict)
