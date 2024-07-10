@@ -56,5 +56,14 @@ La función a crear corresponde a la siguiente:
 Este punto, al igual que los anteriores se encuentran en la fastAPI y deployados en Render.
 
 ### Deployment
+Para el consumo de la API en la web, se utiliza el servicio web gratuito proporcionado por Render.
 
+Este construye y despliega automáticamente el servicio web de tal manera que lo pueda consumir cualquier usuario desde un navegador con internet. para la implementación, conectamos el repositorio GitHUB donde se encuentra el archivo "main.py" que contiene el desarrollo de la API en la framework FastAPI.
+En el siguiente link se encuentra alojado el servicio web : [Deploy Render](https://proyecto-individual-1-wrtd.onrender.com)
 
+## Conclusiones
+Este proyecto tiene la finalidad de aplicar los conocimientos adquiritos en el curso de Data Science en SoyHenry, realizando tareas de Ingeniería de datos como de cientifico de datos. el objetivo era desarrollar un sistema de recomendación de películas para una start-up que agrega plataformas de streaming, comenzando con datos en bruto y sin procesar.
+
+Los restauldos pueden no ser los más adecuados u optimos ya que para llevar a cabo el despliegue en el servicio web es necesaria la limitación de los datasets por la memoria limitada de render.
+
+El embarcarse en este proyecto conlleva un fructifero aprendizaje sobre situaciones que se pueden llegar a dar en la realidad, donde es posible encontrar baja calidad de datos, ausencia de procesos automátizados y la necesidad de desarrollar algún MVP. Con este se ha aprendido la importancia de limpiar y estructuras datos adecuadamente, seleccionar los algoritmos de recomendación apropiados y equilibrar la rapidez con la calidad de la implementación de un MVP.
