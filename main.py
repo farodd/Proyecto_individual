@@ -79,7 +79,6 @@ pagina_presentacion = """
         <h1>Bienvenido a mi entorno FastAPI</h1>
         <p>Podrán ver la API al agregar "/docs" al final de la URL.</p>
         <div>
-        <p> <2023></p>
     </div>
 </body>
 </html>
