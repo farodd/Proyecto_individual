@@ -1,4 +1,7 @@
 # Proyecto individual N°1 - Machine Learning Operations (MLOps)
+
+[MLOps](https://user-images.githubusercontent.com/67664604/217914153-1eb00e25-ac08-4dfa-aaf8-53c09038f082.png)
+
 ## Introducción
 En este proyecto se busca desarrollar un Producto Mínimo Viable (MVP) junto a una API que sea desplegada en algún servicio en la nube y a su vez implementar un modelo de Machine Learning.
 Para esto, son proporcionados dos data sets fundamentales para el proyecto, los cuales incluyen breve información financiera de las películas, especificaciones de las mismas, información de los actores y de los miembros del creadores de la película
